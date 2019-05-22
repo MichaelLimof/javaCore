@@ -1,4 +1,4 @@
-package classes.aula;
+package introducaoClassesContinuacao;
 
 public class Professor {
 

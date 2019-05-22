@@ -1,6 +1,4 @@
-package classes.aula.intro.testes;
-
-import classes.aula.Carro;
+package introducaoClasses;
 
 public class CarroTest {
 	public static void main(String[] args) {
