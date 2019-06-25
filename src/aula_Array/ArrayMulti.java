@@ -17,7 +17,8 @@ for(int i=0;i<numArray.length;i++) {
 	for(int j=0;j<numArray[i].length;j++) {
 		System.out.println(numArray[i][j]);
 	}
-}System.out.println("=========================");
+}
+System.out.println("=========================");
 
 	for(int[] percorre : numArray) {
 		for(int percorridoFinal : percorre ) {

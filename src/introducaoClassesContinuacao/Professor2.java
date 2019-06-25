@@ -7,8 +7,8 @@ public class Professor2 {
 	public String matricula;
 	public String cpf;
 
-	public void imprime() {
-		System.out.println("=------------------------=");
+	public void imprime() {  //a palavra THIS quer dizer que vc vai pegar os valores de dentro do objeto
+		System.out.println("=---------imprime----------=");
 		System.out.println(this.nome);
 		System.out.println(this.cpf);
 		System.out.println(this.matricula);
@@ -16,21 +16,26 @@ public class Professor2 {
 
 	}
 
-	public void imprime3(Professor2 aux) {
-		System.out.println("=------------------------=");
+
+	public void imprime2() {
+		System.out.println("=--------IM2-----------=");
+		System.out.println(this.cpf);
+		System.out.println(this.nome);
+		System.out.println(this.rg);
+		System.out.println(this.matricula);
+	}
+	
+	
+	public void imprime3(Professor2 aux) { //variavel de referencia dentro dos ()
+		System.out.println("=----------AUX-----------=");
 		System.out.println(aux.nome);
 		System.out.println(aux.cpf);
 		System.out.println(aux.matricula);
 		System.out.println(aux.rg);
+		
+		aux.nome = "juca";
+		System.out.println(aux.nome);
 
-	}
-
-	public void imprime2() {
-		System.out.println("=------------------------=");
-		System.out.println(this.cpf);
-		System.out.println(this.nome);
-		System.out.println(this.rg);
-		System.out.println(this.matricula);
 	}
 
 }

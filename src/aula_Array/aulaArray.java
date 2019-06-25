@@ -10,16 +10,14 @@ public class aulaArray {
 		
 		int numAlunos = 0;
 		double [] notaAlunos = new double [numAlunos];
-		
+		System.out.println("teste");
 		for(int i=0;i<numAlunos;++i) {
-			System.out.print("Insira a nota do aluno:" +(i+1));
+			System.out.print("Insira a nota do aluno:" + (i+1));
 			notaAlunos[i] = input.nextDouble();
 			input.close();
 		}
 		for(int i=0;i<numAlunos;++i) {
-			System.out.print("nota do aluno" +notaAlunos[i]);
-		}
-
-	}
-
+			System.out.print("nota do aluno" + notaAlunos[i]);
+}
+}
 }

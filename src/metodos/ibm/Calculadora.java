@@ -4,7 +4,11 @@ public class Calculadora {
 
 	public void somaDoisNumeros() {
 		System.out.println(5 + 15);
-	}public void divideDoisNumeros() {
+		
+	}
+	
+	
+	public void divideDoisNumeros() {
 		System.out.println(10 / 2);
 	}
 
