@@ -7,7 +7,7 @@ public class MainEstudante {
 		estudante.nome = "michael Lima";
 		estudante.idade = 25;
 
-		estudante.notas = new double[] { 3, 5.7, 4 };
+		estudante.notas = new double[] { 6, 6, 6 };
 
 		estudante.imprimir();
 		estudante.tirarMedia();
