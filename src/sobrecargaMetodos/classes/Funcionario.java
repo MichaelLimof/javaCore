@@ -8,6 +8,7 @@ public class Funcionario {
 	private String cpf;
 	private double salario;
 	private String rg;
+	private String funcao;
 	
 	
 	public void imprime() {
@@ -17,6 +18,7 @@ public class Funcionario {
 		System.out.println(this.cpf);
 		System.out.println(this.salario);
 		System.out.println(this.rg);
+		System.out.println(this.funcao);
 	}
 	
 	
@@ -30,17 +32,15 @@ public class Funcionario {
 
 	}
 
-	public void init(String nome, String cpf, double salario, String rg) {
+	public void init(String nome, String cpf, double salario, String rg, String funcao ) {
 		init(nome,cpf,salario);
-//		this.nome = nome;
-//		this.cpf = cpf;
-//		this.salario = salario;
+
 		this.rg = rg;
+		this.funcao = funcao;
 		
 	}
 	
-	
-	
+
 	public String getNome() {
 		return nome;
 	}
@@ -66,6 +66,16 @@ public class Funcionario {
 
 	public void setRg(String rg) {
 		this.rg = rg;
+	}
+
+
+	public String getFuncao() {
+		return funcao;
+	}
+
+
+	public void setFuncao(String funcao) {
+		this.funcao = funcao;
 	} 
 	 
 
