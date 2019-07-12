@@ -1,7 +1,7 @@
-package modiificadorStatic.main;
+package modificadorStaticMetodos;
 
 
-import modiificadorStatic.classe.Pessoa;
+import modificadorStaticMetodos.Pessoa;
 
 public class PessoaMain {
 	public static void main(String[] args) {
@@ -20,8 +20,10 @@ public class PessoaMain {
 		
 //O Atributo Statico se torna atributo da Classe		
 		
-	
-		Pessoa.maximoTeorEtilico = 0.20;
+//		Pessoa.maximoTeorEtilico = 0.20;
+		
+		//O Metodo Statico é um atributo da Classe		
+		Pessoa.setMaximoTeorEtilico(0.20);
 		
 		
 		pessoa1.imprime();
