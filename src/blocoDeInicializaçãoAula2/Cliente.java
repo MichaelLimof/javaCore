@@ -1,7 +1,7 @@
 package blocoDeInicializaçãoAula2;
 
 public class Cliente {
-	// 0 O bloco de Inicialização é executado quando a JVM carregar a classe, executado somente  uma vez cada
+	// 0 O bloco de Inicialização estatico é executado quando a JVM carregar a classe, executado somente  uma vez cada
 	// 1º é alocado espaço na memoria para o Objeto que será criado
 	// 2º Cada atributo de classe é criado e inicializado com seus valores default  ou explicitos
 
